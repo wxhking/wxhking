@@ -26,6 +26,10 @@ TOKEN = os.getenv("GH_TOKEN", "").strip()
 MIN_STARS = int(os.getenv("MIN_STARS", "0"))
 TOP_N = max(1, int(os.getenv("TOP_N", "5")))
 MAX_PAGES = max(1, min(10, int(os.getenv("MAX_PAGES", "10"))))
+PROJECT_ICONS = {
+    "bytedance/deer-flow": "https://raw.githubusercontent.com/bytedance/deer-flow/main/frontend/public/images/deer.svg",
+    "tencentcloud/octop": "https://raw.githubusercontent.com/TencentCloud/Octop/main/dashboard/public/apple-touch-icon.png",
+}
 
 
 def api(path: str, params: dict | None = None) -> dict:
@@ -58,6 +62,14 @@ def compact(num: int) -> str:
     if num < 1000:
         return str(num)
     return f"{num / 1000:.1f}k".replace(".0k", "k")
+
+
+def project_link(full_name: str) -> str:
+    display = f"[`{clean(full_name)}`](https://github.com/{full_name})"
+    icon = PROJECT_ICONS.get(full_name.lower())
+    if icon:
+        display = f'<img src="{icon}" width="28" height="28" alt="{html.escape(full_name, quote=True)} icon" /> ' + display
+    return display
 
 
 def fetch_merged_prs() -> tuple[dict[str, list[str]], bool]:
@@ -119,21 +131,16 @@ def render() -> str:
         lines.append(f"**{sum(r['count'] for r in projects)} merged PRs · {len(projects)} upstream projects**")
         lines.append("")
         lines += [
-            "| Project | ★ | Language | Merged | PRs |",
-            "| --- | ---: | --- | ---: | --- |",
+            "| Project | ★ | Language | Merged |",
+            "| --- | ---: | --- | ---: |",
         ]
         for r in projects[:TOP_N]:
-            name = clean(r["name"])
             desc = clean(r["description"])
-            display = f"[`{name}`](https://github.com/{r['name']})"
+            display = project_link(r["name"])
             if desc:
                 display += f"<br><sub>{desc}</sub>"
-            evidence = " · ".join(f"[#{url.rsplit('/', 1)[-1]}]({url})" for url in r["urls"][:5])
-            if len(r["urls"]) > 5:
-                query = urlencode({"q": f"repo:{r['name']} is:pr is:merged author:{USER}", "type": "pullrequests"})
-                evidence += f" · [all](https://github.com/search?{query})"
             lines.append(
-                f"| {display} | {compact(r['stars'])} | {clean(r['language'])} | {r['count']} | {evidence} |"
+                f"| {display} | {compact(r['stars'])} | {clean(r['language'])} | {r['count']} |"
             )
         if len(projects) > TOP_N:
             lines += [
@@ -145,7 +152,7 @@ def render() -> str:
                 "| --- | ---: | ---: |",
             ]
             for r in projects[TOP_N:]:
-                lines.append(f"| [`{clean(r['name'])}`](https://github.com/{r['name']}) | {compact(r['stars'])} | {r['count']} |")
+                lines.append(f"| {project_link(r['name'])} | {compact(r['stars'])} | {r['count']} |")
             lines += ["", "</details>"]
     else:
         lines.append(

@@ -2,9 +2,9 @@
 
 # Hi, I'm Fish 🐟
 
-**AI Tools · Browser Extensions · AI Agents**
+**AI Tools · AI Agents**
 
-探索 AI Agent，把想法做成工具，也在开源项目中修复真实问题。
+探索 AI Agent，Vibe Coding，开源贡献。
 
 [GitHub](https://github.com/wxhking) · [Projects](https://github.com/wxhking?tab=repositories) · [Merged PRs](https://github.com/search?q=author%3Awxhking+is%3Apr+is%3Amerged+is%3Apublic+-user%3Awxhking&type=pullrequests)
 
@@ -17,26 +17,25 @@
 <!-- CONTRIBUTIONS:START -->
 **3 merged PRs · 2 upstream projects**
 
-| Project | ★ | Language | Merged | PRs |
-| --- | ---: | --- | ---: | --- |
-| [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 83.8k | Python | 2 | [#6817](https://github.com/bytedance/deer-flow/pull/6817) · [#6104](https://github.com/bytedance/deer-flow/pull/6104) |
-| [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.3k | Python | 1 | [#920](https://github.com/TencentCloud/Octop/pull/920) |
+| Project | ★ | Language | Merged |
+| --- | ---: | --- | ---: |
+| <img src="https://raw.githubusercontent.com/bytedance/deer-flow/main/frontend/public/images/deer.svg" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 83.8k | Python | 2 |
+| <img src="https://raw.githubusercontent.com/TencentCloud/Octop/main/dashboard/public/apple-touch-icon.png" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.3k | Python | 1 |
 
-<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-14 10:12 UTC.</sub>
+<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-14 10:31 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
 
-### [AI Resume Assistant](https://github.com/wxhking/AI-Resume-Assistant)
+### [Auto366](https://github.com/CyrilGuoCODE/Auto366)
 
-面向 Microsoft Edge 的 AI 求职表单助手原型，让重复填写资料更省事。
+参与开发的 Electron 桌面自动化项目，关注本地数据处理、规则扩展与交互体验。
 
-- **个人资料侧栏**：本地资料库、快捷片段与当前页面字段扫描。
-- **表单辅助填写**：规则匹配常见字段，结合 LLM 处理未知字段，支持常见自定义下拉框。
-- **PDF 简历导入**：浏览器本地提取文本，AI 结构化后由用户预览、编辑并确认。
-- **填写后验证**：未能确认成功时提供手动填写建议，最终提交由用户完成。
+- **数据处理**：优化 XML 解析与 ZIP 资源读取，改进文件格式兼容性。
+- **规则扩展**：维护可扩展规则集，优化 DOM 定位与页面交互稳定性。
+- **体验优化**：改进时间预设逻辑、日志反馈与界面状态同步。
 
-`JavaScript` · `Edge Extension` · `LLM`
+`JavaScript` · `Electron` · `XML / ZIP` · `DOM`
 
 ## Contribution graph
 
