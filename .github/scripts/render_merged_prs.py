@@ -27,8 +27,8 @@ MIN_STARS = int(os.getenv("MIN_STARS", "0"))
 TOP_N = max(1, int(os.getenv("TOP_N", "5")))
 MAX_PAGES = max(1, min(10, int(os.getenv("MAX_PAGES", "10"))))
 PROJECT_ICONS = {
-    "bytedance/deer-flow": "https://raw.githubusercontent.com/bytedance/deer-flow/main/frontend/public/images/deer.svg",
-    "tencentcloud/octop": "https://raw.githubusercontent.com/TencentCloud/Octop/main/dashboard/public/apple-touch-icon.png",
+    "bytedance/deer-flow": "https://avatars.githubusercontent.com/u/4158466?v=4",
+    "tencentcloud/octop": "https://avatars.githubusercontent.com/u/20101770?v=4",
 }
 
 
