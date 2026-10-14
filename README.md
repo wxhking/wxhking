@@ -22,7 +22,7 @@
 | [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 83.8k | Python | 2 | [#6817](https://github.com/bytedance/deer-flow/pull/6817) · [#6104](https://github.com/bytedance/deer-flow/pull/6104) |
 | [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.3k | Python | 1 | [#920](https://github.com/TencentCloud/Octop/pull/920) |
 
-<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-14 10:10 UTC.</sub>
+<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-14 10:12 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
