@@ -12,7 +12,7 @@
 
 ## Open source contributions
 
-参与过的上游项目。仅统计其他账号下公开仓库中已合并的 PR，每天自动更新。
+参与过的上游项目。仅统计其他账号下公开仓库中已合并的 PR。
 
 <!-- CONTRIBUTIONS:START -->
 **3 merged PRs · 2 upstream projects**
@@ -39,7 +39,7 @@
 
 ## Contribution graph
 
-持续学习、构建和贡献。贪吃蛇动画根据 GitHub 贡献日历生成，支持浅色与深色主题。
+持续学习
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/wxhking/wxhking/output/github-snake-dark.svg" />
@@ -49,8 +49,6 @@
 
 <details>
 <summary><b>Exploring · 关注与学习的开源项目</b></summary>
-
-以下为 Fork，用于跟进与学习；上游合并记录见上方贡献表。
 
 | Project | Focus | My fork |
 | --- | --- | --- |
