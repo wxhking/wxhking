@@ -20,9 +20,9 @@
 | Project | ★ | Language | Merged |
 | --- | ---: | --- | ---: |
 | <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 83.9k | Python | 2 |
-| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.4k | Python | 1 |
+| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.6k | Python | 1 |
 
-<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-15 08:15 UTC.</sub>
+<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-16 08:08 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
