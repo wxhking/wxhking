@@ -22,7 +22,7 @@
 | <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 84k | Python | 3 |
 | <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 9.8k | Python | 1 |
 
-<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-18 02:32 UTC.</sub>
+<sub>Only merged PRs in external repositories with at least 0 stars. Updated automatically: 2026-10-18 07:59 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
