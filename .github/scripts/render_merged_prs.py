@@ -106,6 +106,16 @@ def fetch_merged_prs() -> tuple[dict[str, list[str]], bool]:
     return repo_counts, truncated
 
 
+def fetch_submitted_count(full_name: str) -> int:
+    data = api("/search/issues", {
+        "q": f"repo:{full_name} is:pr is:public author:{USER}",
+        "per_page": 1,
+    })
+    if data.get("incomplete_results"):
+        raise RuntimeError("GitHub returned incomplete submitted-PR results; preserving the existing README")
+    return int(data["total_count"])
+
+
 def render() -> str:
     counts, truncated = fetch_merged_prs()
     projects = []
@@ -119,6 +129,7 @@ def render() -> str:
         projects.append({
             "name": repo.get("full_name", full_name),
             "count": len(urls),
+            "submitted": fetch_submitted_count(full_name),
             "urls": urls,
             "stars": stars,
             "language": repo.get("language") or "—",
@@ -131,8 +142,8 @@ def render() -> str:
         lines.append(f"**{sum(r['count'] for r in projects)} merged PRs · {len(projects)} upstream projects**")
         lines.append("")
         lines += [
-            "| Project | ★ | Language | Merged |",
-            "| --- | ---: | --- | ---: |",
+            "| Project | ★ | Language | 已提交的PR数 | Merged |",
+            "| --- | ---: | --- | ---: | ---: |",
         ]
         for r in projects[:TOP_N]:
             desc = clean(r["description"])
@@ -140,7 +151,7 @@ def render() -> str:
             if desc:
                 display += f"<br><sub>{desc}</sub>"
             lines.append(
-                f"| {display} | {compact(r['stars'])} | {clean(r['language'])} | {r['count']} |"
+                f"| {display} | {compact(r['stars'])} | {clean(r['language'])} | {r['submitted']} | {r['count']} |"
             )
         if len(projects) > TOP_N:
             lines += [
@@ -148,11 +159,11 @@ def render() -> str:
                 "<details>",
                 f"<summary>… and {len(projects) - TOP_N} more projects</summary>",
                 "",
-                "| Project | ★ | Merged |",
-                "| --- | ---: | ---: |",
+                "| Project | ★ | 已提交的PR数 | Merged |",
+                "| --- | ---: | ---: | ---: |",
             ]
             for r in projects[TOP_N:]:
-                lines.append(f"| {project_link(r['name'])} | {compact(r['stars'])} | {r['count']} |")
+                lines.append(f"| {project_link(r['name'])} | {compact(r['stars'])} | {r['submitted']} | {r['count']} |")
             lines += ["", "</details>"]
     else:
         lines.append(
@@ -163,7 +174,8 @@ def render() -> str:
     now = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     lines += [
         "",
-        f"<sub>Only merged PRs in external repositories with at least {MIN_STARS:,} stars. "
+        f"<sub>Only external repositories with merged PRs and at least {MIN_STARS:,} stars are shown. "
+        "Submitted counts include open, merged and closed-unmerged public PRs. "
         f"Updated automatically: {now}."
         + (" Search results capped; older PRs may be omitted." if truncated else "")
         + "</sub>",
