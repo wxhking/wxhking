@@ -15,14 +15,14 @@
 参与过的上游项目。仅展示我在其他账号下公开仓库中已有合并 PR 的项目。`opend` 表示我在该项目当前开放的 PR 数。
 
 <!-- CONTRIBUTIONS:START -->
-**5 merged PRs · 2 upstream projects**
+**6 merged PRs · 2 upstream projects**
 
 | Project | ★ | Language | opend | Merged |
 | --- | ---: | --- | ---: | ---: |
-| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 84.3k | Python | 1 | 4 |
-| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 10.8k | Python | 8 | 1 |
+| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 84.3k | Python | 0 | 5 |
+| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 10.9k | Python | 9 | 1 |
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-10-23 08:29 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-10-24 08:05 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
