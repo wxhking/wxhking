@@ -20,10 +20,10 @@
 | Project | ★ | Language | opend | Merged |
 | --- | ---: | --- | ---: | ---: |
 | <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 84.8k | Python | 0 | 6 |
-|<img width="28" height="28" alt="image" src="https://github.com/user-attachments/assets/4ac62ee1-c0c2-4d41-8e46-a2f4dbc4e199" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 36.1k | Go | 0 | 1 |
+| [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 36.1k | Go | 0 | 1 |
 | <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 11.4k | Python | 12 | 1 |
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-10-31 09:35 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-01 10:24 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
