@@ -26,10 +26,6 @@ TOKEN = os.getenv("GH_TOKEN", "").strip()
 MIN_STARS = int(os.getenv("MIN_STARS", "0"))
 TOP_N = max(1, int(os.getenv("TOP_N", "5")))
 MAX_PAGES = max(1, min(10, int(os.getenv("MAX_PAGES", "10"))))
-PROJECT_ICONS = {
-    "bytedance/deer-flow": "https://avatars.githubusercontent.com/u/4158466?v=4",
-    "tencentcloud/octop": "https://avatars.githubusercontent.com/u/20101770?v=4",
-}
 
 
 def api(path: str, params: dict | None = None) -> dict:
@@ -64,10 +60,10 @@ def compact(num: int) -> str:
     return f"{num / 1000:.1f}k".replace(".0k", "k")
 
 
-def project_link(full_name: str) -> str:
+def project_link(full_name: str, avatar_url: str | None = None) -> str:
     display = f"[`{clean(full_name)}`](https://github.com/{full_name})"
-    icon = PROJECT_ICONS.get(full_name.lower())
-    if icon:
+    if avatar_url:
+        icon = html.escape(avatar_url, quote=True)
         display = f'<img src="{icon}" width="28" height="28" alt="{html.escape(full_name, quote=True)} icon" /> ' + display
     return display
 
@@ -128,6 +124,7 @@ def render() -> str:
             continue
         projects.append({
             "name": repo.get("full_name", full_name),
+            "avatar_url": (repo.get("owner") or {}).get("avatar_url"),
             "count": len(urls),
             "open_count": fetch_open_count(full_name),
             "urls": urls,
@@ -147,7 +144,7 @@ def render() -> str:
         ]
         for r in projects[:TOP_N]:
             desc = clean(r["description"])
-            display = project_link(r["name"])
+            display = project_link(r["name"], r["avatar_url"])
             if desc:
                 display += f"<br><sub>{desc}</sub>"
             lines.append(
@@ -163,7 +160,7 @@ def render() -> str:
                 "| --- | ---: | ---: | ---: |",
             ]
             for r in projects[TOP_N:]:
-                lines.append(f"| {project_link(r['name'])} | {compact(r['stars'])} | {r['open_count']} | {r['count']} |")
+                lines.append(f"| {project_link(r['name'], r['avatar_url'])} | {compact(r['stars'])} | {r['open_count']} | {r['count']} |")
             lines += ["", "</details>"]
     else:
         lines.append(
