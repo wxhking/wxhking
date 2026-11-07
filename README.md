@@ -23,7 +23,7 @@
 | <img src="https://avatars.githubusercontent.com/u/18461506?v=4" width="28" height="28" alt="Tencent/WeKnora icon" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 36.7k | Go | 0 | 1 |
 | <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 11.7k | Python | 19 | 2 |
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-06 10:49 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-07 10:02 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
