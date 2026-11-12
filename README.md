@@ -19,11 +19,11 @@
 
 | Project | ★ | Language | opend | Merged |
 | --- | ---: | --- | ---: | ---: |
-| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 85.2k | Python | 0 | 6 |
-| <img src="https://avatars.githubusercontent.com/u/211762292?v=4" width="28" height="28" alt="agentscope-ai/QwenPaw icon" /> [`agentscope-ai/QwenPaw`](https://github.com/agentscope-ai/QwenPaw)<br><sub>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports m…</sub> | 37.6k | TypeScript | 7 | 1 |
-| <img src="https://avatars.githubusercontent.com/u/18461506?v=4" width="28" height="28" alt="Tencent/WeKnora icon" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 37.2k | Go | 0 | 1 |
+| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 85.3k | Python | 1 | 6 |
+| <img src="https://avatars.githubusercontent.com/u/211762292?v=4" width="28" height="28" alt="agentscope-ai/QwenPaw icon" /> [`agentscope-ai/QwenPaw`](https://github.com/agentscope-ai/QwenPaw)<br><sub>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports m…</sub> | 37.6k | TypeScript | 6 | 1 |
+| <img src="https://avatars.githubusercontent.com/u/18461506?v=4" width="28" height="28" alt="Tencent/WeKnora icon" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 37.3k | Go | 0 | 1 |
 | <img src="https://avatars.githubusercontent.com/u/6154722?v=4" width="28" height="28" alt="microsoft/agent-framework icon" /> [`microsoft/agent-framework`](https://github.com/microsoft/agent-framework)<br><sub>A framework for building, orchestrating and deploying AI agents and multi-agent workflows with supp…</sub> | 14.6k | Python | 0 | 1 |
-| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 11.9k | Python | 16 | 3 |
+| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 12k | Python | 16 | 3 |
 
 <details>
 <summary>… and 1 more projects</summary>
@@ -34,7 +34,7 @@
 
 </details>
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-11 10:52 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-12 11:00 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
