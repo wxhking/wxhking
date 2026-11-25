@@ -19,13 +19,13 @@
 
 | Project | ★ | Language | opend | Merged |
 | --- | ---: | --- | ---: | ---: |
-| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 85.7k | Python | 1 | 6 |
+| <img src="https://avatars.githubusercontent.com/u/4158466?v=4" width="28" height="28" alt="bytedance/deer-flow icon" /> [`bytedance/deer-flow`](https://github.com/bytedance/deer-flow)<br><sub>An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help o…</sub> | 85.8k | Python | 1 | 6 |
+| <img src="https://avatars.githubusercontent.com/u/18461506?v=4" width="28" height="28" alt="Tencent/WeKnora icon" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 38.2k | Go | 0 | 1 |
 | <img src="https://avatars.githubusercontent.com/u/211762292?v=4" width="28" height="28" alt="agentscope-ai/QwenPaw icon" /> [`agentscope-ai/QwenPaw`](https://github.com/agentscope-ai/QwenPaw)<br><sub>Your Personal AI Assistant; easy to install, deploy on your own machine or on the cloud; supports m…</sub> | 38.2k | Python | 6 | 1 |
-| <img src="https://avatars.githubusercontent.com/u/18461506?v=4" width="28" height="28" alt="Tencent/WeKnora icon" /> [`Tencent/WeKnora`](https://github.com/Tencent/WeKnora)<br><sub>Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasonin…</sub> | 38.1k | Go | 0 | 1 |
-| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 12.4k | Python | 16 | 3 |
+| <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 12.5k | Python | 16 | 3 |
 | <img src="https://avatars.githubusercontent.com/u/292215228?v=4" width="28" height="28" alt="omnigent-ai/omnigent icon" /> [`omnigent-ai/omnigent`](https://github.com/omnigent-ai/omnigent)<br><sub>Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cur…</sub> | 11.5k | Python | 0 | 1 |
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-24 13:38 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-25 12:48 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
