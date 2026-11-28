@@ -25,7 +25,7 @@
 | <img src="https://avatars.githubusercontent.com/u/20101770?v=4" width="28" height="28" alt="TencentCloud/Octop icon" /> [`TencentCloud/Octop`](https://github.com/TencentCloud/Octop)<br><sub>A smarter, self-hosted AI assistant — multi-user, multi-agent.</sub> | 12.6k | Python | 16 | 3 |
 | <img src="https://avatars.githubusercontent.com/u/292215228?v=4" width="28" height="28" alt="omnigent-ai/omnigent icon" /> [`omnigent-ai/omnigent`](https://github.com/omnigent-ai/omnigent)<br><sub>Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cur…</sub> | 11.6k | Python | 0 | 1 |
 
-<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-27 12:11 UTC.</sub>
+<sub>Only external repositories with merged PRs and at least 0 stars are shown. opend counts only my currently open public PRs in each project. Updated automatically: 2026-11-28 11:40 UTC.</sub>
 <!-- CONTRIBUTIONS:END -->
 
 ## Featured project
